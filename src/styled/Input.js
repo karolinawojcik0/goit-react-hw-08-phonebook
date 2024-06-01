@@ -12,7 +12,7 @@ const Input = styled.input`
   color: #023047;
 
   &::placeholder {
-    color: #023047;
+    color: #d8d8d8;
   }
 `;
 

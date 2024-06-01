@@ -14,7 +14,7 @@ const changeActive = isActive => {
 
 export const Link = styled(NavLink)`
   display: inline-block;
-  font-family: Arial;
+  font-family: Consolas;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
@@ -31,7 +31,7 @@ export const Link = styled(NavLink)`
   }
   nav &:hover,
   nav &:focus {
-    color: magenta;
+    color: #47a8bd;
   }
 `;
 export const Nav = styled.nav`

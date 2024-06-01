@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const Button = styled.button`
-  font-family: Coiny;
+  font-family: Arial;
   height: 32px;
   padding: 0 15px;
   border-radius: 15px;
   border-color: white;
-  background-color: blueviolet;
+  background-color: #023047;
   color: white;
   transition-property: background-color, color;
   transition-duration: 400ms;
@@ -15,8 +15,8 @@ const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: magenta;
-    text-shadow: 2px 2px blueviolet;
+    background-color: #47a8bd;
+    text-shadow: 2px 2px #023047;
   }
 `;
 export default Button;

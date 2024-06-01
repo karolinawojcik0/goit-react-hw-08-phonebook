@@ -1,19 +1,18 @@
 .contactsList {
-  font-family: Coiny;
+  font-family: Consolas;
   min-width: 320px;
   margin-top: 10px;
   padding: 10px;
-  border: 2px solid violet;
   border-radius: 20px;
-  color: blueviolet;
+  color: #023047;
   overflow: hidden;
 }
 .title {
   display: flex;
-  font-family: Coiny;
+  font-family: Consolas;
   font-size: 24px;
   font-weight: 400;
-  color: blueviolet;
+  color: #023047;
   justify-content: center;
 }
 
