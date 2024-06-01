@@ -9,10 +9,10 @@ const Input = styled.input`
   border-radius: 15px;
   outline: none;
   border: none;
-  color: rgb(89, 22, 153);
+  color: #023047;
 
   &::placeholder {
-    color: rgba(138, 43, 226, 0.3);
+    color: #023047;
   }
 `;
 

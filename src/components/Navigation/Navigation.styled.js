@@ -4,17 +4,17 @@ import { NavLink } from 'react-router-dom';
 const changeActive = isActive => {
   switch (isActive) {
     case 'active':
-      return 'color: violet';
+      return 'color: #023047';
     case 'inactive':
-      return 'color: blueviolet';
+      return 'color: #47a8bd';
     default:
-      return 'color: blueviolet';
+      return 'color: #47a8bd';
   }
 };
 
 export const Link = styled(NavLink)`
   display: inline-block;
-  font-family: Coiny;
+  font-family: Arial;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
@@ -24,7 +24,7 @@ export const Link = styled(NavLink)`
 
   &:hover,
   &:focus {
-    color: magenta;
+    color: #47a8bd;
   }
   &:not(:hover, :focus) {
     ${({ isActive }) => changeActive(isActive)}

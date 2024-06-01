@@ -7,20 +7,21 @@
 .link {
   display: inline-block;
   text-decoration: none;
-  font-family: Coiny;
+  text-transform: uppercase;
+  font-family: Arial;
   padding: 12px;
   font-weight: 600;
   font-size: 18px;
-  color: blueviolet;
+  color: #023047;
   transition-property: color;
   transition-duration: 400ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.isActive {
-  color: violet;
+  color: #47a8bd;
 }
 .link:hover,
 .link:focus {
-  color: magenta;
+  color: #47a8bd;
 }

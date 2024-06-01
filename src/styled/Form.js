@@ -5,7 +5,7 @@ const Form = styled.form`
   flex-direction: column;
   align-items: center;
   min-width: 320px;
-  font-family: Coiny;
+  font-family: Arial;
   gap: 12px;
 
   @media screen and (min-width: 520px) {
